@@ -143,7 +143,15 @@ noremap <Leader>l :TagbarToggle<CR>
 
 " NERDTree
 noremap <Leader>n :NERDTreeToggle<CR>
-
+" NERDTree commands:
+" when in the NERDTree window, press 'm'; you should see a menu at the bottom.
+" Type in 'a' for add childnode. put the directory you want to create and
+" making sure to add a '/' at the end, otherwise the script would create a
+" file. NERDTree cannot create parent directories like 'mkdir -p' does.
+" You can open a file in split of the previous window by pressing ( i ) , or in
+" vertical split by pressing ( s ). 
+" to move from adjacent windows that are left and right of one another,
+" left -> CTRL-w h   and   right -> CRTL-w i
 
 " For solarized color scheme
 set background=dark
