@@ -162,7 +162,7 @@ noremap <Leader>n :NERDTreeToggle<CR>
 " You can open a file in split of the previous window by pressing ( i ) , or in
 " vertical split by pressing ( s ). 
 " to move from adjacent windows that are left and right of one another,
-" left -> CTRL-w h   and   right -> CRTL-w i
+" left -> CTRL-w h   and   right -> CRTL-w i HEAD
 
 " Gundo : vim undo tree
 " =============================
