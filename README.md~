@@ -1,0 +1,12 @@
+
+This is my dotfiles folder.
+
+
+Notes
+-----
+
+ * Just synlink your ~/.vimrc to the vimrc file of this repo.
+ * The same for bashrc (bash/bashrc)
+
+
+Have fun!!

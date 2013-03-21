@@ -207,16 +207,16 @@ noremap <C-t> :tabnew<CR>
 set number
 
 " For colors in terminal
-" =======================
+" ====================
 set t_Co=256
 
 " Disable pylint on every save
-" =============================
+" ====================
 " let g:pymode_lint = 0
 
 
 " Retira a barra de ferramentas e o Menu
-" =======================================
+" ====================
 set guioptions-=T
 set guioptions-=m
 
@@ -260,7 +260,6 @@ endif
 
 
 " For fugitive.vim
-" ========================
 nnoremap <C-G><C-s> :Gstatus <cr>
 nnoremap <C-G><C-c> :Gcommit <cr>
 nnoremap <C-G><C-d> :Gdiff <cr>
@@ -268,11 +267,9 @@ nnoremap <C-G><C-p> :Git push <cr>
 
 
 " Disable automatic python code folding
-" ======================================
 let g:pymode_folding = 0
 
 " For Pytest
-" ========================
 nnoremap <leader>R :Pytest class<cr>
 
 " Some interesting annotations about vim commands
@@ -333,11 +330,11 @@ nnoremap <leader>R :Pytest class<cr>
 " ^R seguido de um registrador = insere o conteúdo daquele registrador
 " 
 " 
-" At my vimrc the Ctrl-S save, F12 do toggle the wrap, shift+F12 do toggle
+" No meu vimrc o Ctrl-S salva, F12 faz toggle de wrap, shift+F12 faz toggle de
 " horizontal scrollbar.
 " 
-" Cool Plugin for test 
-" ========================
-" * vim-instant-markdown
-" * speeddate
-"
+" Plugins legais:
+" NERDTree
+" Gundo
+" speeddate (ou algo assim)
+" 
