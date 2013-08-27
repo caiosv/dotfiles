@@ -240,7 +240,6 @@ vnoremap <C-A-Down> mzy`zp
 vnoremap <C-A-Up> yP
 
 
-" Thanks to denilsonsa
 function! Salvar_setKeys()
 	"Use Ctrl+S to save
 	nnoremap <silent> <C-S>      :update<CR>
